@@ -150,7 +150,7 @@ footer {
 
 .dirpage:hover {
   background: gainsboro;
-  color: hotpink
+  color: hotpink;
 }
 
 #directions2 {
@@ -161,4 +161,15 @@ footer {
   margin: 20px 10px;
   padding: 10px 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@font-face {
+  font-family: "PatrickHand";
+  src: url(PatrickHand-Regular.ttf);
+}
+
+.directions,
+p {
+  font-family: "PatrickHand";
+  font-size: medium;
 }
