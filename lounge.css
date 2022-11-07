@@ -45,7 +45,7 @@ h2 {
   color: red;
 }
 
-#footer {
+.footer {
   font-size: 50%;
   text-align: center;
   line-height: normal;
@@ -80,7 +80,7 @@ h2 {
 #detailed-directions a:visited {
   color: #333333;
 }
-#footer2 {
+.footer2 {
   font-size: 50%;
   text-align: center;
   line-height: normal;
@@ -115,4 +115,50 @@ h2 {
   border: dashed thick #007e7e;
   padding: 20px 30px 5px 30px;
   margin: 20px 10px;
+}
+
+footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+#directions {
+  box-sizing: content-box;
+  width: 75%;
+  border: dashed 3px #007e7e;
+  background: antiquewhite;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mile {
+  font-weight: bold;
+  font-style: italic;
+  color: purple;
+}
+
+.dirpage:link {
+  color: purple;
+}
+
+.dirpage:visited {
+  color: violet;
+}
+
+.dirpage:hover {
+  background: gainsboro;
+  color: hotpink
+}
+
+#directions2 {
+  box-sizing: border-box;
+  width: 75%;
+  border: dashed 3px #007e7e;
+  background: antiquewhite;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
