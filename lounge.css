@@ -80,3 +80,39 @@ h2 {
 #detailed-directions a:visited {
   color: #333333;
 }
+#footer2 {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+#Back-to-the-Lounge a:link {
+  color: red;
+}
+
+#Back-to-the-Lounge a:visited {
+  color: maroon;
+}
+
+.Green {
+  color: green;
+}
+
+.Raspberry {
+  color: lightskyblue;
+}
+
+.Blueberry {
+  color: plum;
+}
+
+.Cranberry {
+  color: darkred;
+}
+
+.Body {
+  border: dashed thick #007e7e;
+  padding: 20px 30px 5px 30px;
+  margin: 20px 10px;
+}
